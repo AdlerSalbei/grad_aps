@@ -9,3 +9,11 @@ class Extended_PostInit_EventHandlers {
         init = QUOTE(call COMPILE_FILE(XEH_postInit));
     };
 };
+
+class Extended_Init_Eventhandlers
+{
+    class Man
+    {
+        init = "_this addEventHandler ["FiredMan", {_this call FUNC(missileHandlingEH);}];";
+    };
+};

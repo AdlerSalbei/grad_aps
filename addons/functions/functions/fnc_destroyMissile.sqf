@@ -1,4 +1,5 @@
 params ["_missile"];
 
-_explosionEffect = "HelicopterExploSmall" createVehicle (getPosATL _shell);
+"HelicopterExploSmall" createVehicle (getPosATL _shell);
+[(getPosASL _missile), [], "handGrenade"] call ace_frag_fnc_frago;
 deleteVehicle _missile;

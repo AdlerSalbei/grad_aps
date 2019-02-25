@@ -12,8 +12,4 @@ if (
     private _vehicles = missionNamespace getVariable [QGVAR(activVehicles), []];
     _vehicles pushBackUnique _vehicle;
     missionNamespace setVariable [QGVAR(activVehicles), _vehicles, false];
-
-    if !(missionNamespace getVariable [QGVAR(pfhActiv), false]) then {
-        [] call FUNC(mainPFH);
-    }:
 };

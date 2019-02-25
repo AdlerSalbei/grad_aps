@@ -1,0 +1,13 @@
+name = "GRAD APS";
+author = "Gruppe Adler";
+picture = "logo_grad_ca.paa";
+//actionName = "Website";
+//action = "https://github.com/gruppe-adler/grad_aps/releases";
+description = "Gruppe Adler Active Protection System";
+logo = "logo_grad_ca.paa";
+logoOver = "logo_grad_ca.paa";
+tooltip = "Gruppe Adler APS";
+overview = "";
+overviewPicture = "Adler.paa";
+overviewText = "";
+overviewFootnote = "";
